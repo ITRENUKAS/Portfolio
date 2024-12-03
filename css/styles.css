@@ -1,0 +1,701 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background: #414e5c;
+    color: #333;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    animation: fadeIn 2s ease;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: rgb(211, 156, 156);
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+    text-align: center;
+    animation: fadeIn 2s ease;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    animation: fadeIn 2s ease;
+}
+
+.hero-content .btn {
+    background: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.hero-content .btn:hover {
+    background: #c0392b;
+}
+
+/* Cards Section */
+.highlights {
+    padding: 50px 20px;
+    background: white;
+    text-align: center;
+}
+
+.highlights .cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.highlights .card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.highlights .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Carousel Section */
+.carousel {
+    padding: 50px 20px;
+    background: #f8f9fa;
+    text-align: center;
+    position: relative;
+}
+
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.carousel-slide h3 {
+    margin-bottom: 10px;
+}
+
+.carousel-slide p {
+    margin: 0;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* Navigation Bar Styles */
+nav {
+    background: linear-gradient(135deg, #34495e, #2c3e50);
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #e74c3c;
+    color: white;
+}
+nav ul li a.active {
+    border-bottom: 2px solid #e74c3c;
+}
+/* Centering the Intro Section */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(135deg, #f8f9fa, #dce1e8);
+    padding: 20px;
+}
+
+.intro h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+    max-width: 600px;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background: #e7f1fc;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin: 0.5em 0;
+    animation: fadeIn 2s ease;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    animation: fadeIn 2s ease;
+}
+
+.hero-content .btn {
+    background: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.hero-content .btn:hover {
+    background: #c0392b;
+}
+
+/* Cards Section */
+.highlights {
+    padding: 50px 20px;
+    background: white;
+    text-align: center;
+}
+
+.highlights .cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.highlights .card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.highlights .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Carousel Section */
+.carousel {
+    padding: 50px 20px;
+    background: #f8f9fa;
+    text-align: center;
+    position: relative;
+}
+
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    transition: transform 0.5s ease-in-out;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.carousel-slide h3 {
+    margin-bottom: 10px;
+}
+
+.carousel-slide p {
+    margin: 0;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.about-photo img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.about-me {
+    background: linear-gradient(135deg, #f8f9fa, #e8eef5);
+}
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* .social-links a:hover {
+    color: #e74c3c;
+}
+/* Social Links */
+.social-links {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: flex;
+    gap: 15px;
+} */
+
+.social-links a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: #aab9c9;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+    background: #e74c3c;
+    transform: scale(1.1);
+}
+/* Centering About Me Section */
+.about-me {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack items vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #f8f9fa; /* Light background for contrast */
+    text-align: center; /* Center-align text */
+}
+
+/* About Container Layout */
+.about-container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center; /* Center both photo and text */
+    gap: 20px; /* Add space between photo and text */
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visual */
+}
+
+/* Photo Styling */
+.about-photo img {
+    width: 250px;
+    height: 250px;
+    border-radius: 500%; /* Make the image circular */
+    border: 3px solid #2c3e50; /* Add a border */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    object-fit: fill; /* Ensure the image fits perfectly */
+    margin: 20px auto;
+}
+
+/* Text Styling */
+.about-text {
+    max-width: 600px; /* Limit the text width for better readability */
+}
+
+.about-text h2 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+    font-size: 1.8em;
+}
+
+.about-text p {
+    margin: 10px 0;
+    line-height: 1.6;
+    color: #333;
+}
+body {
+    background: linear-gradient(135deg, #e8eef5, #f4f4f9);
+}
+.box-container {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation Styling */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background: #34495e;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Certificate Box Styling */
+.certificate-box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: left; /* Align text to the left within the box */
+}
+
+.certificate-box h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.certificate-box p {
+    margin: 5px 0;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2c3e50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation Styling */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background: #34495e;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Box Styling for Internships */
+.internship-box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    text-align: left; /* Align text to the left within the box */
+}
+
+.internship-box h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    font-size: 1.4em;
+}
+
+.internship-box p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.internship-box ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.internship-box ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2c3e50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+    background: #2c3e50;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation Styling */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    background: #34495e;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styling */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Project Box Styling */
+.project-box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+    text-align: left; /* Align text to the left within the box */
+}
+
+.project-box h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    font-size: 1.4em;
+}
+
+.project-box ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.project-box ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2c3e50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.content-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 600px;
+    width: 90%;
+    text-align: left;
+}
+
+.content-box h2 {
+    margin-top: 0;
+    color: #2c3e50;
+    font-size: 1.5em;
+    border-bottom: 2px solid #e74c3c; /* Add a bottom border to headings */
+    padding-bottom: 5px;
+}
+
+.content-box p {
+    margin: 15px 0;
+}
+
+.content-box ul {
+    padding-left: 20px;
+}
+
+.content-box ul li {
+    margin-bottom: 10px;
+    list-style-type: disc; /* Standard bullet points */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #2c3e50; /* Dark footer background */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Profile Photo Styling */
